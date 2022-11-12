@@ -1,0 +1,765 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.4rem;
+    background-color: #f5f5f5;
+}
+img{
+    width: 100%;
+}
+
+
+/* nov bar sections */
+nav{
+    width: 100%;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+    background-color: #ffff;
+}
+nav div{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.logo-section a{
+    text-decoration: none;
+    color: black;
+}
+.logo-section h1{
+    font-size: 1.1rem;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+    margin: 2px;
+}
+ul li a{
+    color: rgb(13, 65, 13);
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+ul li:hover{
+    border-radius: 4px;
+    border: rgb(95, 200, 122);
+    background-color: rgb(95, 200, 122);
+    color: white;
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+nav .nav-bar-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar-buttons .button-01{
+    margin-right: 3px;
+    padding: 7px 15px;
+    border-radius: 4px;
+    border:1px solid rgb(5, 97, 28);
+    background-color: #ffff;
+    color: green;
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.nav-bar-buttons .button-02{
+    margin-left: 3px;
+    padding: 7px 15px;
+    border-radius: 4px;
+    border: rgb(95, 200, 122);
+    background-color: rgb(95, 200, 122);
+    color: white;
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.nav-bar-buttons .button-02 i{
+    padding-left: 6px;
+}
+
+
+
+
+
+
+/* header sections */
+header{
+    height: 100vh;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+}
+
+header .header-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4rem;
+}
+
+.header-main-container a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(14, 132, 14);
+    padding: 1rem 0rem;
+}
+
+.header-main-container h1{
+    font-weight: 500;
+    width: 75%;
+    padding: 5px 0rem;
+    margin-bottom: 5px;
+}
+
+.header-main-container p{
+    width: 80%;
+    font-weight: lighter;
+    font-size: large;
+    color: rgb(133, 150, 128);
+}
+
+
+/* button sectioons */
+.header-buttons-sections{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+
+/* first button */
+.header-buttons-sections .header-button-01{
+    margin-right: 3px;
+    padding: 7px 15px;
+    border-radius: 4px;
+    border: rgb(95, 200, 122);
+    background-color: rgb(95, 200, 122);
+    color: white;
+    cursor: pointer;
+}
+/* second button */
+.header-buttons-sections .header-button-02{
+    margin-left: 3px;
+    padding: 7px 15px;
+    border-radius: 4px;
+    border: 1px solid limegreen;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
+
+
+/* header image sections.. */
+
+.header-img-container{
+    position: relative;
+}
+.header-img-container img{
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    border-radius: 39px 150px 29px 150px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* cards sections..... */
+
+header .header-course-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    bottom: 30px;
+}
+.header-course-cards .header-course-first-card{
+   width: 30%;
+   background-color: #ffff;
+   display: flex;
+   flex-direction: column;
+   padding: 2rem;
+   box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.1);
+}
+.header-course-first-card span{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.header-course-first-card span i{
+    font-size: 1rem;
+}
+.header-course-first-card h4{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 5px 0px;
+}
+.header-course-first-card hr{
+    display: flex;
+    align-items: flex-start;
+    width: 25%;
+    background-color: red;
+    height: 3px;
+}
+.header-course-first-card p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #afa8a8;
+    word-spacing: -1px;
+}
+
+/* second card */
+.header-course-cards .header-course-second-card{
+    width: 30%;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.1);
+}
+.header-course-second-card span{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.header-course-second-card span i{
+    font-size: 1rem;
+}
+.header-course-second-card h4{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 5px 0px;
+}
+.header-course-second-card hr{
+    display: flex;
+    align-items: flex-start;
+    width: 25%;
+    background-color: red;
+    height: 3px;
+}
+.header-course-second-card p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #afa8a8;
+    word-spacing: -1px;
+}
+
+
+/* third cards */
+.header-course-cards .header-course-third-card{
+    width: 30%;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.1);
+}
+.header-course-third-card span{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.header-course-third-card span i{
+    font-size: 1rem;
+}
+.header-course-third-card h4{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 5px 0px;
+}
+.header-course-third-card hr{
+    display: flex;
+    align-items: flex-start;
+    width: 25%;
+    background-color: red;
+    height: 3px;
+}
+.header-course-third-card p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #afa8a8;
+    word-spacing: -1px;
+}
+
+
+/* body sections..... (main) */
+main{
+    width: 100%;
+    background-color: #ffff;
+}
+main .main-first-section{
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+.main-first-section div h1{
+    color: rgb(112, 185, 112);
+}
+.main-first-section div small{
+    font-weight: lighter;
+    font-size: 1.1rem;
+    color: #897f7f;
+}
+
+/* main  second container */
+
+main .main-second-section{
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-second-text-container hr{
+    width: 20%;
+    background-color: red;
+    height: 4px;
+    margin: 10px 0px;
+    
+}
+.main-second-text-container h3{
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 1.5rem;
+}
+.main-second-text-container p{
+    font-size: 0.90rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 100%;
+    margin: 1rem 0rem;
+    color: #897f7f;
+}
+.main-second-button-container span a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: rgb(59, 119, 59);
+    font-size: 1.1rem;
+
+}
+
+/* sections two imge sections */
+.main-second-section .main-second-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* practices container */
+.main-practice-section-div{
+    background-color: #FAF7F0;
+}
+
+.main-practice-secrion{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.main-practice-secrion .practice-text-container{
+    margin: 2rem 0rem;
+}
+.practice-text-container small{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: rgb(45, 135, 45);
+    padding: 10px 0px;
+}
+.practice-text-container h4{
+    margin: 1rem 0rem;
+}
+.practice-text-container p{
+    font-size: 1.1rem;
+    width: 45%;
+    color: #3d3a3a;
+}
+
+/* box container  */
+.main-practice-secrion .practice-box-sections{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-practice-secrion .box-section-one{
+    margin: 0.5rem;
+    width: 30%;
+    padding: 10px 10px 20px 10px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.1);
+    background-color: #ffff;
+    
+}
+
+.image-dive-one{
+    width: auto;
+    height: 300px;
+    background: url(./work_shop/pencile-02.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+/* box under texts.. fist one  */
+
+
+.image-dive-one span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.image-dive-one span:hover{
+    background-color: black;
+    color: white;
+}
+
+.box-section-one small{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: rgb(61, 110, 61);
+}
+.box-section-one h5{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding: 5px 0px;
+   
+}
+.box-section-one p{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    padding: 5px 0px;
+    color: #897f7f;
+    cursor: pointer;
+    margin-bottom: 10px;
+   
+}
+.box-section-one p span{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: gold;
+    cursor: pointer;
+}
+.box-section-one a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 7px 15px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+/* end */
+
+.box-section-two{
+    margin: 0.5rem;
+    width: 30%;
+    padding: 10px 10px 20px 10px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.1);
+    background-color: #ffff;
+    
+}
+
+.image-dive-two{
+    width: auto;
+    height: 300px;
+    background: url(./work_shop/pencie-03.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* second box undfer */
+.image-dive-two span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.image-dive-two span:hover{
+    background-color: black;
+    color: white;
+} 
+.box-section-two small{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: rgb(61, 110, 61);
+}
+.box-section-two h5{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding: 5px 0px;
+   
+}
+.box-section-two p{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    padding: 5px 0px;
+    color: #897f7f;
+    cursor: pointer;
+    margin-bottom: 10px;
+   
+}
+.box-section-two p span{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: gold;
+    cursor: pointer;
+}
+
+.box-section-two a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 7px 15px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+/* end */
+.box-section-three{
+    margin: 0.5rem;
+    width: 30%;
+    padding: 10px 10px 20px 10px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.1);
+    background-color: #ffff;
+    
+} 
+.image-dive-three{
+    width: auto;
+    height: 300px;
+    background: url(./work_shop/pencel-01\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* third box undfer */
+.image-dive-three span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.image-dive-three span:hover{
+    background-color: black;
+    color: white;
+}
+
+.box-section-three small{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: rgb(61, 110, 61);
+}
+.box-section-three h5{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding: 5px 0px;
+   
+}
+.box-section-three p{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    padding: 5px 0px;
+    color: #897f7f;
+    cursor: pointer;
+    margin-bottom: 10px;
+   
+}
+.box-section-three p span{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: gold;
+    cursor: pointer;
+}
+
+.box-section-three a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 7px 15px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+
+/* foooter////////////// */
+footer{
+    margin-top: 2rem;
+    background-color: white;
+}
+footer .footer-two{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-two .footer-first-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+.footer-first-container div h6{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.footer-first-container div p{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #afa8a8;
+}
+
+.footer-main-second-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.footer-main-second-container i{
+    margin: 10px;
+    color: green;
+    cursor: pointer;
+}
+.footer-main-second-container p{
+    font-size: 1rem;
+    color: #afa8a8;
+    cursor: pointer;
+}
+
+@media (max-width:675px){
+    nav, nav div,nav ul{
+        flex-direction: column;
+    }
+    header{
+        text-align: center;
+    }
+    .header-img-container img{
+        position: absolute;
+        top: 50px;
+        right: -45px;
+    }
+    header .header-course-cards{
+        text-align: center;
+        flex-direction: column;
+    }
+    .header-course-cards .header-course-first-card,.header-course-cards .header-course-second-card,.header-course-cards .header-course-third-card{
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.1);
+    }
+    main .main-first-section{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 22rem;
+        
+    }
+    .main-first-section div{
+        box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.1);
+        margin: 15px;
+        padding: 25px;
+        cursor: pointer;
+    }
+    main .main-second-section{
+       flex-direction: column;
+       
+    }
+    .main-practice-secrion{
+        justify-content: center;
+        text-align: center;
+    }
+    .main-practice-secrion .practice-text-container{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-practice-secrion .practice-box-sections{
+        flex-direction: column;
+        width: 100%;
+    }
+    .main-practice-secrion .box-section-one,.box-section-two,.box-section-three{
+        width: 100%;
+    }
+    .footer-main-second-container{
+        flex-direction: column;
+    }
+
+}
